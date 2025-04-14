@@ -327,7 +327,6 @@ body {
         display: none;
     }
 }
-
 /* End services 
 
  /* start portfolio  */
@@ -494,7 +493,15 @@ body {
 }
 .contact .info .social i {
    margin-left: 10px;
-   color: var(--secondary-color);
+}
+.contact .info .social i:first-child{
+    color: #4267B2;
+}
+.contact .info .social i:nth-child(2){
+    color: #1DA1F2;
+}
+.contact .info .social i:last-child{
+    color: #0077B5;
 }
 @media (max-width: 767px){
     .contact .info .label,
